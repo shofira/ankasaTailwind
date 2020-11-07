@@ -9,10 +9,10 @@
         </p>
       </div>
       <div class="my-4">
-        <nuxt-link to="/register" class="bg-blue-500 font-bold text-white px-6 py-3 hover:shadow-none mr-4 sm:mr-0 sm:block mb-5 shadow-xl rounded-lg" >
+        <nuxt-link to="/register" class="btn-auth mr-4 sm:mr-0 sm:block mb-5" >
           Create My Account
         </nuxt-link>
-        <nuxt-link to="/login" class="font-bold text-blue-500 px-6 py-3 border border-teal-600 sm:block shadow-xl hover:shadow-none rounded-lg" >
+        <nuxt-link to="/login" class="btn-outline-auth sm:block" >
           Sign In
         </nuxt-link>
       </div>

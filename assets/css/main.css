@@ -1,34 +1,29 @@
-/* :root {
-  --color: #243746;
-  --color-primary: #158876;
-  --color-secondary: #0e2233;
-  --bg: #f3f5f4;
-  --bg-secondary: #fff;
-  --border-color: #ddd;
-}
+@tailwind base;
 
-.dark-mode {
-  --color: #ebf4f1;
-  --color-primary: #41b38a;
-  --color-secondary: #fdf9f3;
-  --bg: #091a28;
-  --bg-secondary: #071521;
-  --border-color: #0d2538;
-}
-.sepia-mode {
-  --color: #433422;
-  --color-secondary: #504231;
-  --bg: #f1e7d0;
-  --bg-secondary: #eae0c9;
-  --border-color: #ded0bf;
-}
+@tailwind components;
 
-body {
-  font-family: 'Lato', 'Poppins', sans-serif;
-  background-color: var(--bg);
-  color: var(--color);
-  transition: background-color 0.3s;
+@tailwind utilities;
+
+.btn-auth {
+  @apply w-full bg-blue-500 text-white font-bold py-3 px-6 shadow-xl rounded-lg
 }
-a {
-  color: var(--color-primary);
-} */
+.btn-auth:hover {
+  @apply shadow-none bg-blue-600
+}
+.btn-auth:focus, 
+.input-form:focus, 
+.btn-outline-auth:focus {
+  @apply outline-none
+}
+.input-form {
+  @apply w-full py-3 px-3 text-gray-700 text-sm mb-3 leading-tight border-b-2 
+}
+.btn-outline-auth {
+  @apply border border-blue-500 text-blue-700 py-3 px-6 shadow-xl cursor-pointer rounded-lg
+}
+.btn-outline-auth:hover {
+  @apply shadow-none
+}
+.text-description {
+  @apply text-sm text-gray-600 my-2
+}
