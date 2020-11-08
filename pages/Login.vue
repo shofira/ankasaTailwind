@@ -21,7 +21,7 @@
           <div class="mb-3">
             <input class="input-form" type="password" placeholder="Password" required>
           </div>
-          <button class="btn-auth">
+          <button class="btn-auth" @click="login">
             Sign In
           </button>
           <div class="text-center mt-3 leading-6">
@@ -92,6 +92,9 @@ export default {
         'success'
       )
       this.closeModal()
+    },
+    login() {
+      this.$router.push('/')
     }
   }
 }

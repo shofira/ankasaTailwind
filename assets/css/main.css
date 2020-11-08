@@ -16,14 +16,35 @@
   @apply outline-none
 }
 .input-form {
-  @apply w-full py-3 px-3 text-gray-700 text-sm mb-3 leading-tight border-b-2 
+  @apply w-full py-3 px-3 text-gray-700 text-sm mb-2 leading-tight border-b-2 
 }
 .btn-outline-auth {
   @apply border border-blue-500 text-blue-700 py-3 px-6 shadow-xl cursor-pointer rounded-lg
+}
+.btn-outline-auth-sm {
+  @apply border border-blue-500 text-blue-700 py-1 px-2 shadow-xl cursor-pointer rounded-lg
 }
 .btn-outline-auth:hover {
   @apply shadow-none
 }
 .text-description {
   @apply text-sm text-gray-600 my-2
+}
+.text-description-sm {
+  @apply text-xs text-gray-600 my-2
+}
+.img-profile {
+  @apply border-2 border-solid border-blue-600 rounded-full p-1
+}
+.btn-waiting {
+  @apply bg-orange-500 text-white py-2 px-4 rounded-md
+}
+.btn-waiting:hover {
+  @apply bg-orange-600
+}
+.btn-done {
+  @apply bg-green-500 text-white py-2 px-4 rounded-md
+}
+.btn-done:hover {
+  @apply bg-green-600
 }

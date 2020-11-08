@@ -1,14 +1,14 @@
 <template>
   <div class="mx-5 sm:mx-10 text-sm">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 relative bottom-0 mt-5 gap-2">
-      <div class="mb-8 pr-5">
+      <div class="mb-4 pr-5">
         <div>
           <img src="../assets/img/bluesmallplane.png" class="inline w-8 mr-2" alt="logo ankasa">
           <b class="text-xl text-gray-800 tracking-wider">ankasa</b>
         </div>
         <p class="text-gray-600 mt-3 leading-8">Find your Flight and explore the <br> world with us. We will take care of the rest</p>
       </div>
-      <div class="mb-8">
+      <div class="mb-4">
         <b class="text-gray-800 tracking-wider">Features</b>
         <div class="grid grid-cols-2 sm:grid-cols-1 leading-8 text-gray-600">
           <p>Find Ticket</p>
@@ -17,7 +17,7 @@
           <p>Notification</p>
         </div>
       </div>
-      <div class="mb-5">
+      <div class="mb-4">
         <b class="text-gray-800 tracking-wider">Download Ankasa App</b>
         <div class="flex sm:block space-x-4 sm:space-x-0">
           <img src="../assets/img/Gplay.png" class="w-1/3 sm:w-2/5 mt-5">
