@@ -12,7 +12,10 @@
 }
 .btn-auth:focus, 
 .input-form:focus, 
-.btn-outline-auth:focus {
+.btn-outline-auth:focus,
+.btn-outline-auth-sm:focus,
+.btn-waiting:focus,
+.btn-done:focus {
   @apply outline-none
 }
 .input-form {
@@ -47,4 +50,10 @@
 }
 .btn-done:hover {
   @apply bg-green-600
+}
+.search-box {
+  @apply bg-gray-200 text-gray-800 rounded-md inline-flex items-center
+}
+.search-box:hover {
+  @apply bg-gray-300
 }

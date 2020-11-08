@@ -38,7 +38,7 @@
                 <input class="input-form" type="text" placeholder="Medan, Indonesia">
                 <p class="text-description-sm">Post Code</p>
                 <input class="input-form" type="text" placeholder="55555">
-                <button class="btn-auth mt-3">Save</button>
+                <button class="btn-auth mt-8">Save</button>
               </div>
             </div>
 
