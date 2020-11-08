@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="container block lg:flex justify-between gap-4 py-5">
+    <nav class="container block lg:flex justify-between gap-4 py-5 lg:py-2">
       <div class="flex justify-between">
         <nuxt-link to="/" class="flex lg:items-center">
           <img src="../assets/img/bluesmallplane.png" class="w-8 h-8 mr-2" alt="logo ankasa">
@@ -12,7 +12,6 @@
           </svg>
         </div>
       </div>
-    
       <div class="container flex flex-col lg:flex-row lg:items-center lg:flex justify-between text-sm py-3 hidden" id="collapse-nav">
         <div class="flex flex-col lg:flex-row lg:items-center">
           <button class="search-box">
@@ -20,8 +19,8 @@
             <input type="text" class="w-full bg-transparent text-gray-600 text-sm px-6 py-3 focus:outline-none rounded-md" placeholder="Where you want to go?">
           </button>
         </div>
-        <div class="flex flex-col lg:flex-row lg:items-center lg:space-x-8 font-bold">
-          <nuxt-link to="" class="block py-2">Find Ticket</nuxt-link>
+        <div class="flex flex-col lg:flex-row lg:items-center lg:space-x-8 font-bold mb-3">
+          <nuxt-link to="/flight" class="block py-2">Find Ticket</nuxt-link>
           <nuxt-link to="/mybooking" class="block py-2">My Booking</nuxt-link>
         </div>
         
@@ -35,7 +34,7 @@
             </nuxt-link>
           </div>
           <div v-else>
-            <nuxt-link to="/splashscreen" class="block py-2 lg:px-4 w-1/3 lg:w-full bg-blue-500 text-white text-center shadow-xl rounded-lg">
+            <nuxt-link to="/splashscreen" class="btn-auth-sm">
               Sign Up
             </nuxt-link>
           </div>

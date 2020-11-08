@@ -2,7 +2,7 @@
   <div>
     <Header type='home'/>
       <div class="bg-gray-200 pb-5">
-        <div class="bg-blue-500 rounded-b-xl">
+        <div class="bg-blue-500 rounded-b-3xl">
           <img src="../assets/img/plane.png" alt="plane background" class="w-2/6 sm:w-1/6">
         </div>
         <div class="container block md:flex justify-between py-10 gap-10">
@@ -58,7 +58,7 @@
                 </p>
               </div>
             </div>
-            <button class="btn-auth mt-10 mb-5">Proceed to Payment</button>
+            <button class="btn-auth mt-10 mb-5" @click="payment">Proceed to Payment</button>
           </div>
 
           <div class="w-full">
@@ -91,3 +91,13 @@
     <Footer />
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    payment() {
+      this.$router.push('/mybooking')
+    }
+  }
+}
+</script>

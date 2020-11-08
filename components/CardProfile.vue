@@ -2,7 +2,7 @@
   <div>
     <div class="w-full bg-white rounded-lg shadow-lg">
       <div class="p-6">
-          <img src="../assets/img/bigProfile.png" alt="profile" class="img-profile mx-auto">
+          <img src="../assets/img/bigProfile.png" alt="profile" class=" mx-auto">
         <div class="text-center">
           <button class="btn-outline-auth-sm my-4">
             <input type="file" class="hidden">

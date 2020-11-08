@@ -7,7 +7,7 @@
         <div class="block">
           <div class="w-full bg-white rounded-lg shadow-lg mt-10 md:mt-0">
             <div class="px-6 py-4">
-              <b class="text-xs text-blue-600 tracking-widest uppercase mb-2">My Booking</b>
+              <b class="text-tracking">My Booking</b>
               <div class="flex justify-between items-center">
                 <p class="font-bold text-2xl">My Booking</p>
                 <p class="text-blue-600">Order History</p>
